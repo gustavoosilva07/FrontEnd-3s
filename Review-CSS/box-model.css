@@ -1,0 +1,27 @@
+*{
+    /*reset css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(193, 234, 116);
+}
+
+.caixa{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 50px;
+
+    border: 2px solid black;
+}

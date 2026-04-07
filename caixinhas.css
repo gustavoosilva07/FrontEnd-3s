@@ -1,0 +1,36 @@
+*{
+    /*Reseta o Css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+   background-color: rgb(55, 0, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.sessao-noticias{
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 1px dashed salmon;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noticia{
+    width: 150px;
+    height: 150px;
+    background-color: salmon;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
