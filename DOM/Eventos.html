@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Bem vindo</h1>
+    <div>
+        <span id="spn-nome"></span>
+        <span id="spn-sobrenome"></span>
+    </div>
+    <input type="text" id="nome" placeholder="digite seu nome" onblur="criaSobrenome()" onkeyup = "replicaNome(this.value)">
+    <script>
+        let criouSobrenome = false;
+
+        function replicaNome(nome){
+            document.getElementById('spn-nome').textContent = nome;
+        }
+        function replicaSobrenome(sobrenome){
+            document.getElementById('spn-sobrenome').textContent = sobrenome;
+        }
+
+        function criaSobrenome(){
+            if(!criouSobrenome){
+                document.body.innerHTML += 
+                        `<input
+                            type="text" 
+                            id="sobrenome" 
+                            placeholder="digite seu sobrenome"
+                            onkeyup="replicaSobrenome(this.value)"
+                        >`;
+                criouSobrenome = true;
+            }
+        }
+
+        // Faz com que o "nome" da pagina mude para o que você desejar
+        function trocaTitulo(){
+            // Const = é um valor constante, diferente de let que um valor variavel
+            // prompt = é o alert só que dá para digitar dentro
+            const novoTitulo = prompt("Digite o novo título");
+            document.title = `Página do ${novoTitulo}`;
+            // Lembra de deixar += que ele adiciona, diferente de = que somente substitui
+            document.body.innerHTML += `<h2>Página do ${novoTitulo}</h2>`
+        }
+    </script>
+</body>
+</html>

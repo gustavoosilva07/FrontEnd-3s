@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Quando o código está fora da função, nesse caso, ele vai instantaneamente.
+        // Caso ele esteja dentro da função, vai presisar criar algo que chame a função para acontecer
+        function saudacao() {
+            alert(`Título: ${document.getElementById('titulo').textContent}`)
+        }
+
+        function mouseMoveu() {
+            alert("O mouse se movel no botão")
+        }
+
+        function clicouBaixo() {
+            alert("O mouse se movel no botão")
+        }
+ 
+        function clicouSubiu() {
+            alert("O mouse se movel no botão")
+        }
+
+        function clicouDuas() {
+            alert("O clicou duas vezes o botão")
+        }
+        // // Você só pode usar isso depois da criação de "titulo" dese caso ele ainda não foi criado
+        // alert(`Título: ${document.getElementById('titulo').textContent}`)
+    </script>
+</head>
+<body>
+    <h1 id="titulo">Olá sou o título da página</h1>
+    <button onclick="saudacao()">Click aqui</button> <br>
+    <button onmousemove="mouseMoveu();">Passe o mouse</button>
+    <button onmousedown="clicouBaixo()">Segura o click</button>
+    <button onmouseup="clicouBaixo()">Solta o click</button>
+    <button ondblclick="clicouDuas()">Click duas vezes</button>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "usuarios":[
+    {"id": 1,"nome": "Gustavo Silva", "email":"Gs07@gmail.com","idade":18},
+    {"id": 2,"nome": "Pedro Enzo", "email":"Ph07@gmail.com","idade":18}
+    ],
+    "frutas" : [
+        
+    ],
+    "jogos"  : []
+
+}
