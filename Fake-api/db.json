@@ -73,5 +73,14 @@
       "id": "D6lvMNYbixw"
     }
   ],
+  "calculadora": [
+    {
+      "n1": 30,
+      "n2": 37,
+      "op": "soma",
+      "resultado": "67.00",
+      "id": "CUsDlL21GE8"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
