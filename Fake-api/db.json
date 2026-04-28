@@ -1,11 +1,77 @@
 {
-    "usuarios":[
-    {"id": 1,"nome": "Gustavo Silva", "email":"Gs07@gmail.com","idade":18},
-    {"id": 2,"nome": "Pedro Enzo", "email":"Ph07@gmail.com","idade":18}
-    ],
-    "frutas" : [
-        
-    ],
-    "jogos"  : []
-
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Gustavo Silva",
+      "email": "Gs07@gmail.com",
+      "idade": 18
+    },
+    {
+      "id": "2",
+      "nome": "Pedro Enzo",
+      "email": "Ph07@gmail.com",
+      "idade": 18
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "imc": [
+    {
+      "nome": "Eduardo",
+      "altura": "1.70",
+      "peso": "70",
+      "IMC": 24.221453287197235,
+      "situação": "Saudável",
+      "id": "QWF72KoJKns"
+    },
+    {
+      "nome": "Eduardo",
+      "altura": "1.70",
+      "peso": "70",
+      "IMC": 24.221453287197235,
+      "situação": "Saudável",
+      "id": "-5_Uy5FmqmY"
+    },
+    {
+      "nome": "gustavo",
+      "altura": "1.70",
+      "peso": "70",
+      "IMC": 24.221453287197235,
+      "situacao": "Saudável",
+      "id": "8uPhMKM0KXs"
+    },
+    {
+      "nome": "gustavo",
+      "altura": "1.70",
+      "peso": "70",
+      "IMC": 24.221453287197235,
+      "situação": "Saudável",
+      "id": "BcC2Ly81eik"
+    },
+    {
+      "nome": "gustavo",
+      "altura": "1.70",
+      "peso": "70",
+      "IMC": 24.221453287197235,
+      "situação": "Saudável",
+      "id": "PAPkOqI9MEE"
+    },
+    {
+      "nome": "allan",
+      "altura": "1.89",
+      "peso": "83",
+      "IMC": 23.23563170124017,
+      "situação": "Saudável",
+      "id": "cOuNNTkVBes"
+    },
+    {
+      "nome": "zaian ",
+      "altura": "2.00",
+      "peso": "89",
+      "IMC": 22.25,
+      "situação": "Saudável",
+      "id": "D6lvMNYbixw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
